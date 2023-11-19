@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Artifika&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Artifika&family=Montagu+Slab:opsz,wght@16..144,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="mx-20 ipad_min:mx-10 mobile:mx-6">
+
+    <!-- header starts here -->
+    <header>
+        <div class="flex justify-between my-8">
+            <h1 class="font-artifika text-2xl"><a href="./index.html">Rema Devi</a></h1>
+            <div class="hidden ipad_min:block mobile:block">
+                <img id="menuicon" src="./image/Menu.svg" alt="">
+            </div>
+            <div class="flex gap-10 ipad_min:hidden mobile:hidden ">
+                    <nav>
+                        <ul class="flex gap-7 text-lg font-montasorrat">
+                            <li><a href="./consult.html">Consultation</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                        </ul>
+                    </nav>
+                <button class="bg-primary py-2 px-6 font-montasorrat rounded-full" id="up">
+                    <a href="javascript:void(0)">Make an appointment</a>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- header ends here -->
+
+    <!-- popup starts here -->
+    <div class="flex fixed left-[-500px] popup z-[9999999]" id="pop">
+        <form class="bg-light w-[30rem] p-10 rounded-lg ipad_min:w-full mobile:w-full">
+            <div>
+                <label for="name" class="block text-base">Name</label>
+                <input type="text" id="name" name="name" class="border border-gray-800 rounded p-2 w-full">
+            </div>
+            <div>
+                <label for="email" class="block text-base mt-3">E-mail</label>
+                <input type="text" id="email" name="email" class="border border-gray-800 rounded p-2 w-full">
+            </div>
+            <div> 
+                <label for="contact" class="block text-base mt-3">Contact Number</label>
+                <input type="text" id="contact" name="contact" class="border border-gray-800 rounded p-2 w-full">
+            </div>
+            <div>
+                <label for="purpose" class="block text-base mt-3">Purpose</label>
+                <input type="text" id="purpose" name="purpose" class="border border-gray-800 rounded p-8 w-full">
+            </div>
+            <div>
+                <label for="date" class="block text-base mt-3">Date</label>
+                <input type="text" id="date" name="date" class="border border-gray-800 rounded p-2 w-full">
+            </div>
+            <div class="flex justify-between gap-3">
+                <div class="my-12 flex justify-center">
+                    <button class="border border-black w-[10rem] h-[3rem] read" type="button">
+                        <a href="#">Cancel</a>
+                    </button>
+                </div>
+                <div class="my-12 flex justify-center">
+                    <button class="border w-[10rem] h-[3rem] rounded-3xl bg-primary" type="submit">
+                        <a href="#">Book Now</a>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <!-- popup end here -->
+
+    <!-- menu bar starts here -->
+    <div id="slidemenu" class="slidediv py-8 items-center text-center right-0 top-0 fixed h-full bg-black z-[9999999]">
+        <div class="bg-black" >
+            <div class="my-20">
+                <a href="./index.html"><h1 class="font-artifika text-3xl text-[2rem] text-baseprimary">Rema Devi</h1></a>
+            </div>
+            <div>
+                <nav>
+                    <ul class=" text-xl font-montserrat text-baseprimary">
+                        <a href="./index.html"><li>Home</li></a>
+                        <a href="./consult.html"><li class="my-6">Consultation</li></a>
+                        <a href="./about.html"><li>About</li></a>
+                        <a href="./blog.html"><li class="my-6">Blog</li></a>
+                    </ul>
+                </nav>
+            </div>
+            <div id="closeicon" class="flex justify-center my-20">
+                <img src="./image/xmark.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- menu bar ends here -->
+
+    <!-- spotlight section starts here -->
+    <section>
+        <div class="p-10 ipad_min:p-2 mobile:p-2">
+            <h2 class="font-montasorrat text-center text-lg">18 Aug 2023</h2>
+            <h1 class="font-semibold font-montasorrat text-4xl my-8 ipad_min:text-xl mobile:text-xl" >What is INNER CHILD, and the what is the role of INNER CHILD in us presently?</h1>
+            <p class="font-montasorrat  text-lg ipad_min:text-base mobile:text-base">The concept of the inner child has gained popularity in recent years, especially in the field of psychology. The inner child refers to the emotional, sensitive, and vulnerable part of ourselves that we carry with us from childhood. This part of us is often buried deep inside, hidden by our adult selves, but it continues to influence our behavior and emotions. As a professional psychologist, I have witnessed the power of the inner child in shaping people’s lives. In this article, I will explore the inner child concept and how it affects us.</p>
+            <img class="w-full h-auto my-8 ipad_min:hidden mobile:hidden" src="./image/Frame 34547.png" alt="">
+            <img class="hidden ipad_min:block mobile:block" src="./image/Frame 34547(12).svg" alt="">
+            <h1 class="italic font-medium font-montasorrat  text-xl my-8 ">What is the Inner Child?</h1>
+            <p class="font-montasorrat text-lg ipad_min:text-base mobile:text-base">The inner child is the part of ourselves that has retained the feelings, experiences, and beliefs of our childhood. It is the part of us that remembers the joy of playing, the pain of rejection, the fear of being alone, and the wonder of discovery. Our inner child holds our hopes, dreams, and aspirations, as well as our wounds, fears, and insecurities.
+                The inner child is a metaphorical construct that helps us understand how our early experiences shape our emotional responses, relationships, and behaviors. It is not a physical or biological entity but a psychological one that reflects the essence of our childhood selves. The inner child is not limited to a specific age or stage of development but encompasses all the experiences that have shaped our emotional landscape.</p>
+            <h1 class="italic font-medium font-montasorrat  text-xl my-8 ">Why is the Inner Child Important?</h1>
+            <p class="font-montasorrat  text-lg ipad_min:text-base mobile:text-base">The inner child is important because it influences our behavior and emotions in adulthood. Our early experiences, both positive and negative, shape our beliefs, values, and attitudes about ourselves and the world around us. These beliefs and attitudes continue to influence our thinking and behavior, often outside of our conscious awareness.
+                For example, if we experienced rejection or abandonment as a child, we may develop a fear of intimacy and struggle to form healthy relationships in adulthood. If we were criticized or shamed for expressing our feelings, we may struggle to communicate our emotions and be prone to depression and anxiety.
+                By understanding our inner child, we can gain insight into our emotional patterns and learn how to heal old wounds and develop healthier behaviors. We can also learn to nurture our inner child and provide it with the love, support, and validation it needs to feel secure and valued.</p>
+            <h1 class="italic font-medium font-montasorrat  text-xl my-8 ">How to Connect with Your Inner Child?</h1>
+            <p class="font-montasorrat  text-lg">Connecting with your inner child involves several steps, including:
+                Acknowledge your inner child: Recognize that you have an inner child and that it influences your thoughts, feelings, and behavior.</p>
+            <p class="font-montasorrat text-lg my-4 ">Identify your triggers: Pay attention to situations or events that trigger intense emotional reactions or behaviors. These may be related to your inner child’s unmet needs or unresolved issues.</p>
+            <p class="font-montasorrat text-lg  ">Reflect on your childhood: Reflect on your childhood experiences, both positive and negative. Identify the beliefs, values, and attitudes that you developed as a result of those experiences.</p>
+            <p class="font-montasorrat text-lg my-4 ">Engage in self-compassion: Practice self-compassion and self-care. Treat yourself with kindness, understanding, and support, as you would with a child.</p>
+            <p class="font-montasorrat text-lg ">Express yourself creatively: Engage in creative activities that allow you to express your emotions and connect with your inner child, such as art, writing, or music.</p>
+            <p class="font-montasorrat text-lg my-4 ">Seek professional help: Seek professional help from a therapist or counselor if you are struggling with unresolved childhood issues or emotional patterns.</p>
+            <p class="font-montasorrat text-lg ">The inner child is a powerful concept that can help us understand and heal our emotional wounds. By acknowledging our inner child, we can gain insight into our emotional patterns and develop healthier behaviors. By connecting with our inner child, we can learn to nurture ourselves and provide the love, support, and validation that we need to feel secure and valued. As a professional psychologist, I encourage everyone to explore their inner child and discover the power of self-healing and growth.</p>
+        </div>
+        <div class="flex justify-center gap-8 my-8 ipad_min:hidden mobile:hidden">
+            <div class="flex gap-4">
+                <img src="./image/heart.svg" alt="">
+                <p class="font-montasorrat text-lg">400 LIKES</p>
+            </div>
+            <div class="flex gap-4">
+                <img src="./image/Share.svg" alt="">
+                <p class="font-montasorrat text-lg">SHARE</p>
+            </div>
+            
+        </div>
+    </section>
+    <!-- spotlight section ends here -->
+
+    <!-- recent blog starts here -->
+    <section>
+        <div class="flex justify-between my-16 ipad_min:grid mobile:grid">
+            <div class=" w-[30%] font-montasorrat ipad_min:w-full mobile:w-full">
+                <img class="mb-4" src="./image/Rectangle 1549(2).svg" alt="">
+                <h1 class="font-semibold ">The Therapeutic Wonders of Having a Husky Companion</h1>
+                <p class="my-4">The bond between humans and animals, particularly with pet dogs like Huskies, holds remarkable psychological</p>
+                <h2>31 Dec 2023</h2>
+            </div>
+            <div class=" w-[30%] font-montasorrat ipad_min:w-full mobile:w-full">
+                <img class="mb-4" src="./image/Rectangle 1549-1(1).svg" alt="">
+                <h1 class="font-semibold">What is INNER CHILD, and the what is the role of INNER CHILD in us presently.?</h1>
+                <p class="my-4">The concept of the inner child has gained popularity in recent years, especially in the field of psychology. The inner child refers to the emotional, sensitive, and vulnerable part of ourselves that we carry with us from childhood.</p>
+                <h2>31 Dec 2023</h2>
+            </div>
+            <div class=" w-[30%] font-montasorrat ipad_min:w-full mobile:w-full ">
+                <img src="./image/Rectangle 1549-2(1).svg" alt="">
+                <h1 class="font-semibold">What is a Toxic relationship and how we sticks with it?</h1>
+                <p class="my-4"> class="my-4"Toxic relationships can be detrimental to our mental health and well-being, yet many of us find ourselves caught in them. These relationships are characterized by behaviors such as manipulation, control, jealousy, and emotional or physical abuse.</p>
+                <h2>31 Dec 2023</h2>
+            </div>
+        </div>
+    </section>
+    <!-- recent blog section starts here -->
+
+    <!-- footer starts here -->
+    <footer>
+        <div class="bg-black flex justify-evenly py-20 rounded-3xl my-16 ipad_min:grid ipad_min:px-6 mobile:grid mobile:px-6">
+            <div>
+                <h1 class="text-primary text-3xl font-artifika ipad_min:hidden">Rema Devi</h1>
+                <div class="flex my-5 gap-5 ipad_min:hidden">
+                    <img src="./image/instagram.svg" alt="">
+                    <img src="./image/facebook.svg" alt="">
+                </div>
+            </div>
+            <div>
+                <h1 class="text-primary underline font-montserrat text-xl  ">Quick Links</h1>
+                <nav>
+                    <ul class="my-5">
+                        <li class="text-baseprimary font-montserrat text-lg mb-4 "><a href="./index.html"></a>Home</li>
+                        <li class="text-baseprimary font-montserrat text-lg "><a href="./consult.html">Consultation</a></li>
+                        <li class="text-baseprimary font-montserrat text-lg my-5 "><a href="./about.html">About</a></li>
+                        <li class="text-baseprimary font-montserrat text-lg "><a href="./blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h1  class="text-primary underline font-montserrat text-xl ipad_min:text ">How to reach us</h1>
+                <div class="flex gap-5 my-5 text-lg ipad_min:text-base ">
+                    <img src="./image/call.svg" alt="">
+                    <p class="text-baseprimary font-montserrat ">9745640301</p>
+                    <p class="text-baseprimary font-montserrat ">9995045525</p>
+                </div>
+                <div class="flex gap-5 text-lg ipad_min:text-base" >
+                    <img src="./image/Envelope.svg" alt="">
+                    <p class="text-baseprimary font-montserrat ">remaagrasala18@gmail.com</p>
+                </div> 
+                <div class="flex gap-5 my-5 text-lg ipad_min:text-base">
+                    <img src="./image/location.svg" alt="">
+                    <p class="text-baseprimary font-montserrat ">South Nada, Kodungallur, Thrissur,
+                        Kerala-680 664</p>
+                </div>
+            </div>
+            <div>
+                <button class="bg-primary  text-black py-2 px-8 read ipad_min:hidden" id="uping">
+                    <a href="javascript:void(0)" class="text-xl ipad_min:text-lg">Book an appointment</a>
+                </button>
+            </div>
+             <div class="hidden ipad_min:block">
+                <h1 class="text-primary underline font-montserrat text-xl ipad_min:text-base">Social Media</h1>
+                <div class="flex my-5 gap-4">
+                    <img src="./image/instagram.svg" alt="">
+                    <img src="./image/facebook.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <script src="./script.js"></script>
+</body>
+</html>
