@@ -1098,6 +1098,42 @@ video {
   .phone_max\:hidden {
     display: none;
   }
+
+  .phone_max\:h-full {
+    height: 100%;
+  }
+
+  .phone_max\:w-full {
+    width: 100%;
+  }
+
+  .phone_max\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .phone_max\:p-7 {
+    padding: 1.75rem;
+  }
+
+  .phone_max\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .phone_max\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .phone_max\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .phone_max\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (max-width: 640px) {
@@ -1175,6 +1211,16 @@ video {
   .mobile\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .mobile\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .mobile\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 
   .mobile\:text-left {
@@ -1290,6 +1336,16 @@ video {
   .ipad_min\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .ipad_min\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .ipad_min\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 
   .ipad_min\:text-left {
