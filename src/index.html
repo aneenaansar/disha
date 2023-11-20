@@ -17,28 +17,30 @@
     <!-- header starts here -->
     <header>
         <div class="flex justify-between my-8">
-            <h1 class="font-artifika text-2xl"><a href="./index.html">Rema Devi</a></h1>
+            <h1 class="font-artifika text-2xl nav-link"><a href="./index.html">Rema Devi</a></h1>
             <div class="hidden ipad_min:block mobile:block phone_max:block">
                 <img id="menuicon" src="./image/Menu.svg" alt="">
             </div>
             <div class="flex gap-10 ipad_min:hidden mobile:hidden phone_max:hidden ">
-                    <nav>
-                        <ul class="flex gap-7 text-lg font-montasorrat">
-                            <li><a href="./consult.html">Consultation</a></li>
-                            <li><a href="./about.html">About</a></li>
-                            <li><a href="./blog.html">Blog</a></li>
-                        </ul>
-                    </nav>
-                <button class="bg-primary py-2 px-6 font-montasorrat rounded-full" id="up">
+                <nav>
+                    <ul class="flex gap-7 text-lg font-montasorrat my-2">
+                        <li><a href="./consult.html" class="nav-link">Consultation</a></li>
+                        <li><a href="./about.html" class="nav-link">About</a></li>
+                        <li><a href="./blog.html" class="nav-link">Blog</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="bg-primary py-2 px-6 font-montasorrat rounded-full font-medium hover:bg-black hover:text-primary  transition ease-in-outnp duration-75" id="up">
                     <a href="javascript:void(0)">Make an appointment</a>
                 </button>
             </div>
         </div>
     </header>
     <!-- header ends here -->
+    
 
     <!-- popup starts here -->
-    <div class="flex fixed left-[-500px] popup z-[9999999]" id="pop">
+    <div class="flex  fixed left-[-500px] popup z-[9999999]" id="pop">
         <form class="bg-light w-[30rem] p-10 rounded-lg ipad_min:w-full mobile:w-full">
             <div>
                 <label for="name" class="block text-base">Name</label>
@@ -46,11 +48,11 @@
             </div>
             <div>
                 <label for="email" class="block text-base mt-3">E-mail</label>
-                <input type="text" id="email" name="email" class="border border-gray-800 rounded p-2 w-full">
+                <input type="email" id="email" name="email" class="border border-gray-800 rounded p-2 w-full">
             </div>
             <div> 
                 <label for="contact" class="block text-base mt-3">Contact Number</label>
-                <input type="text" id="contact" name="contact" class="border border-gray-800 rounded p-2 w-full">
+                <input type="tel" id="contact" name="contact" class="border border-gray-800 rounded p-2 w-full">
             </div>
             <div>
                 <label for="purpose" class="block text-base mt-3">Purpose</label>
@@ -58,7 +60,7 @@
             </div>
             <div>
                 <label for="date" class="block text-base mt-3">Date</label>
-                <input type="text" id="date" name="date" class="border border-gray-800 rounded p-2 w-full">
+                <input type="date" id="date" name="date" class="border border-gray-800 rounded p-2 w-full">
             </div>
             <div class="flex justify-between gap-3">
                 <div class="my-12 flex justify-center">
@@ -126,10 +128,10 @@
             <img class="mx-3" src="./image/Union-3.svg" alt="">
         </div>
         <div>
-            <button class="bg-primary rounded-full w-full py-2 hidden ipad_min:block mobile:block phone_max:block" id="respo">
+            <button class="bg-primary rounded-full w-full py-2 font-medium hover:bg-black hover:text-primary transition ease-in-outnp duration-75 hidden ipad_min:block mobile:block phone_max:block ipad:block" id="respo">
                 <a href="javascript:void(0)">Book an appointment</a>
             </button>
-            <button class="w-full border border-black rounded-full my-6 py-2 hidden ipad_min:block mobile:block phone_max:block">
+            <button class="w-full border border-black rounded-full my-6 py-2 font-medium hover:bg-black hover:text-primary hover:border-primary transition ease-in-outnp duration-75 hidden ipad_min:block mobile:block phone_max:block ipad:block">
                 <a href="./consult.html">Consultation</a>
             </button>
         </div>
@@ -138,45 +140,45 @@
     <!-- spotlight ends here -->
 
     <!-- grid starts here -->
-    <section class="ipad_min:hidden mobile:hidden phone_max:hidden">
+    <section class="ipad_min:hidden mobile:hidden phone_max:hidden ipad:hidden">
         <div class="flex flex-wrap justify-between gap-7">
-            <div class=" w-[30%] bg-primary items-start h-40 p-8 rounded-xl font-montasorrat">
+            <div class=" w-[30%] bg-primary items-start h-40 p-8 rounded-xl font-montasorrat hover:bg-baseprimary transition ease-in-outnp duration-75 ">
                 <h1 class="font-semibold">Pre-Marital Counselling</h1>
                 <p class="my-3">Marriage made easy with our counselling service.</p>
             </div>
-            <div class=" w-[30%] bg-baseprimary items-start h-40 p-8 rounded-xl font-montasorrat">
+            <div class=" w-[30%] bg-baseprimary items-start h-40 p-8 rounded-xl font-montasorrat hover:bg-primary transition ease-in-outnp duration-75">
                 <h1 class="font-semibold">Family Counselling</h1>
                 <p>Child & adolescent growth with our counselling service.</p>
             </div>
-            <div class=" w-[30%] bg-primary items-start h-40 p-8 rounded-xl font-montasorrat">
+            <div class=" w-[30%] bg-primary items-start h-40 p-8 rounded-xl font-montasorrat hover:bg-baseprimary transition ease-in-outnp duration-75">
                 <h1 class="font-semibold">Child & Adolescent Counselling</h1>
                 <p>School success with our counselling service.</p>
             </div>
-            <div class=" w-[23%] bg-baseprimary items-start h-40 p-8 rounded-xl font-montasorrat">
+            <div class=" w-[23%] bg-baseprimary items-start h-40 p-8 rounded-xl font-montasorrat hover:bg-primary transition ease-in-outnp duration-75">
                 <h1 class="font-semibold">School Counselling</h1>
                 <p>School success with our counselling service.</p>
             </div>
-            <div class=" w-[23%] bg-primary items-start h-40 p-8 rounded-xl font-montasorrat">
+            <div class=" w-[23%] bg-primary items-start h-40 p-8 rounded-xl font-montasorrat hover:bg-baseprimary transition ease-in-outnp duration-75">
                 <h1 class="font-semibold">Group Counselling</h1>
                 <p>Group support with our counselling service.</p>
             </div>
-            <div class=" w-[23%] bg-baseprimary items-start h-40 p-8 rounded-xl font-montasorrat">
+            <div class=" w-[23%] bg-baseprimary items-start h-40 p-8 rounded-xl font-montasorrat hover:bg-primary transition ease-in-outnp duration-75">
                 <h1 class="font-semibold">Grief Therapy</h1>
                 <p>Heal from your loss with our therapy.</p>
             </div>
-            <div class="w-[23%] bg-primary items-start h-40 p-8 rounded-xl font-montasorrat">
+            <div class="w-[23%] bg-primary items-start h-52 p-8 rounded-xl font-montasorrat hover:bg-baseprimary transition ease-in-outnp duration-75">
                 <h1 class="font-semibold">Motivational Sessions</h1>
                 <p>Boost your motivation with our motivational sessions</p>
             </div>
-            <div class=" w-[30%] bg-baseprimary items-start h-40 p-8 rounded-xl font-montasorrat">
+            <div class=" w-[30%] bg-baseprimary items-start h-40 p-8 rounded-xl font-montasorrat hover:bg-primary transition ease-in-outnp duration-75">
                 <h1 class="font-semibold">Teacher Development Programmes</h1>
                 <p>Teach better with our programmes</p>
             </div>
-            <div class=" w-[30%] bg-primary items-start h-40 p-8 rounded-xl font-montasorrat">
+            <div class=" w-[30%] bg-primary items-start h-40 p-8 rounded-xl font-montasorrat hover:bg-baseprimary transition ease-in-outnp duration-75">
                 <h1 class="font-semibold">Awareness Programs</h1>
                 <p>Learn more about mental health with our awareness programs.</p>
             </div>
-            <div class=" w-[30%] bg-baseprimary items-start h-40 p-8 rounded-xl font-montasorrat">
+            <div class=" w-[30%] bg-baseprimary items-start h-40 p-8 rounded-xl font-montasorrat hover:bg-primary transition ease-in-outnp duration-75">
                 <h1 class="font-semibold">Career Guidance</h1>
                 <p>Find your career path with our career guidance service.</p>
             </div>
@@ -186,12 +188,12 @@
 
     <!-- About us start here -->
     <section>
-        <div class="flex gap-14 my-24 ipad_min:grid ipad_min:my-14 mobile:grid mobile:my-14 phone_max:grid phone_max:my-7">
+        <div class="flex gap-14 my-24 ipad_min:grid ipad_min:my-14 mobile:grid mobile:my-14 phone_max:grid phone_max:my-7 ipad:grid">
             <div>
-                <div class="ipad_min:w-full mobile:w-full"><img src="./image/Rectangle 1549(1).png" alt=""></div>
+                <div class="ipad_min:w-full mobile:w-full ipad:flex ipad:justify-center"><img src="./image/Rectangle 1549(1).png" alt=""></div>
                 <div class="ipad_min:hidden mobile:hidden">
-                    <button class="bor w-[25rem] h-[3rem] my-6 ipad_min:w-full">
-                        <a href="#">Read more</a>
+                    <button class="bor w-[25rem] h-[3rem] my-6 ipad_min:w-full hover:bg-primary hover:border-none ipad:hidden">
+                        <a href="./about.html">Read more</a>
                     </button>
                 </div>
             </div>
@@ -235,9 +237,9 @@
 
     <!-- logo section starts here -->
     <section>
-        <div class="bg-baseprimary flex items-center gap-6 rounded-xl px-10 ipad_min:grid mobile:grid phone_max:grid ipad_min:px-5 ipad_min:py-5 mobile:px-5 mobile:py-5 phone_max:p-7 ">
+        <div class="bg-baseprimary flex items-center gap-6 rounded-xl px-10 py-10 ipad_min:grid mobile:grid phone_max:grid ipad_min:px-5 ipad_min:py-5 mobile:px-5 mobile:py-5 phone_max:p-7 ">
             <div>
-                <img class="h-72 w-[50rem] phone_max:w-full phone_max:h-full" src="./image/image6 1.png" alt="">
+                <img class="h-72 w-[50rem] phone_max:w-full phone_max:h-full ipad:w-[100rem]" src="./image/image6 1.png" alt="">
             </div>
             <div>
                 <h1 class="font-artifika text-3xl my-2 ipad_min:text-xl mobile:text-xl">New Disha</h1>
@@ -269,13 +271,13 @@
             </div>
             <div>
                 <div class="p-8  self-stretch bg-primary rounded-xl">
-                    <p class="font-montserrat text-lg ipad_min:text-base mobile:text-base">“Rema Devi is an excellent counsellor with a lot of experience and expertise. She helped me and my daughter with our family and personal issues. She also conducted some awareness programmes and motivational sessions for our community.”</p>
+                    <p class="font-montserrat text-lg ipad_min:text-base mobile:text-base">“Rema Devi is an excellent counsellor with a lot of experience and expertise. She helped me and my daughter with our family and personal issues. She also conducted some awareness programmes and motivational sessions for our community, communication skills, and career prospects. She is truly a blessing in disguise..”</p>
                     <h2 class="font-montserrat text-lg font-medium mt-4 ipad_min:text-base mobile:text-base">Rajesh M</h2>
                 </div>
             </div>
             <div>
                 <div class="p-8 self-stretch bg-baseprimary rounded-xl">
-                    <p class="font-montserrat text-lg ipad_min:text-base mobile:text-base">“Rema Devi helped me a lot with my stress and anxiety. She is calm, supportive, and empathetic. She taught me how to relax, meditate, and cope with my negative thoughts.”</p>
+                    <p class="font-montserrat text-lg ipad_min:text-base mobile:text-base">“Rema Devi helped me a lot with my stress and anxiety. She is calm, supportive, and empathetic. She taught me how to relax, meditate, and cope with my negative thoughts.communication skills, and career prospects. She is truly a blessing in disguise. She helped me and my daughter with our family and personal issues.”</p>
                     <h2 class="font-montserrat text-lg font-medium mt-4 ipad_min:text-base mobile:text-base">Anil S</h2>
                 </div>
             </div>
@@ -287,8 +289,8 @@
     <footer>
         <div class="bg-black flex justify-evenly py-20 rounded-3xl my-16 ipad_min:grid ipad_min:px-6 mobile:grid mobile:px-6 phone_max:grid phone_max:px-8">
             <div>
-                <h1 class="text-primary text-3xl font-artifika ipad_min:hidden mobile:hidden">Rema Devi</h1>
-                <div class="flex my-5 gap-5 ipad_min:hidden mobile:hi">
+                <h1 class="text-primary text-3xl font-artifika ipad_min:hidden mobile:hidden ipad:hidden">Rema Devi</h1>
+                <div class="flex my-5 gap-5 ipad_min:hidden mobile:hidden ipad:hidden">
                     <img src="./image/instagram.svg" alt="">
                     <img src="./image/facebook.svg" alt="">
                 </div>
@@ -297,10 +299,10 @@
                 <h1 class="text-primary underline font-montserrat text-xl  ">Quick Links</h1>
                 <nav>
                     <ul class="my-5">
-                        <li class="text-baseprimary font-montserrat text-lg mb-4 "><a href="./index.html"></a>Home</li>
-                        <li class="text-baseprimary font-montserrat text-lg "><a href="./consult.html">Consultation</a></li>
-                        <li class="text-baseprimary font-montserrat text-lg my-5 "><a href="./about.html">About</a></li>
-                        <li class="text-baseprimary font-montserrat text-lg "><a href="./blog.html">Blog</a></li>
+                        <li class="text-baseprimary font-montserrat text-lg mb-4 hover:text-primary "><a href="./index.html"></a>Home</li>
+                        <li class="text-baseprimary font-montserrat text-lg hover:text-primary "><a href="./consult.html">Consultation</a></li>
+                        <li class="text-baseprimary font-montserrat text-lg my-5 hover:text-primary "><a href="./about.html">About</a></li>
+                        <li class="text-baseprimary font-montserrat text-lg hover:text-primary "><a href="./blog.html">Blog</a></li>
                     </ul>
                 </nav>
             </div>
@@ -308,27 +310,27 @@
                 <h1  class="text-primary underline font-montserrat text-xl ipad_min:text-xl mobile:text-xl ">How to reach us</h1>
                 <div class="flex gap-5 my-5 text-lg ipad_min:text-base mobile:text-base">
                     <img src="./image/call.svg" alt="">
-                    <p class="text-baseprimary font-montserrat ">9745640301</p>
-                    <p class="text-baseprimary font-montserrat ">9995045525</p>
+                    <p class="text-baseprimary font-montserrat hover:text-primary  ">9745640301</p>
+                    <p class="text-baseprimary font-montserrat hover:text-primary  ">9995045525</p>
                 </div>
                 <div class="flex gap-5 text-lg ipad_min:text-base mobile:text-base " >
                     <img src="./image/Envelope.svg" alt="">
-                    <p class="text-baseprimary font-montserrat ">remaagrasala18@gmail.com</p>
+                    <p class="text-baseprimary font-montserrat hover:text-primary  ">remaagrasala18@gmail.com</p>
                 </div> 
                 <div class="flex gap-5 my-5 text-lg ipad_min:text-base mobile:text-base">
                     <img src="./image/location.svg" alt="">
-                    <p class="text-baseprimary font-montserrat ">South Nada, Kodungallur, Thrissur,
+                    <p class="text-baseprimary font-montserrat hover:text-primary  ">South Nada, Kodungallur, Thrissur,
                         Kerala-680 664</p>
                 </div>
             </div>
             <div>
-                <button class="bg-primary  text-black py-2 px-8 read ipad_min:hidden mobile:hidden" id="uping">
+                <button class="bg-primary  text-black py-2 px-8 read ipad_min:hidden mobile:hidden ipad:hidden" id="uping">
                     <a href="javascript:void(0)" class="text-xl ipad_min:text-lg mobile:text-lg">Book an appointment</a>
                 </button>
             </div>
              <div class="hidden ipad_min:block mobile:block">
                 <h1 class="text-primary underline font-montserrat text-xl ipad_min:text-base mobile:text-base">Social Media</h1>
-                <div class="flex my-5 gap-4">
+                <div class="flex my-5 gap-4 hover:text-primary ">
                     <img src="./image/instagram.svg" alt="">
                     <img src="./image/facebook.svg" alt="">
                 </div>
