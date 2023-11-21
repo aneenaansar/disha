@@ -887,8 +887,8 @@ video {
   padding: 0.75rem;
 }
 
-.p-44 {
-  padding: 11rem;
+.p-32 {
+  padding: 8rem;
 }
 
 .p-6 {
@@ -897,14 +897,6 @@ video {
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.p-32 {
-  padding: 8rem;
 }
 
 .px-10 {
@@ -1150,6 +1142,11 @@ video {
 .hover\:border-primary:hover {
   --tw-border-opacity: 1;
   border-color: rgb(255 200 185 / var(--tw-border-opacity));
+}
+
+.hover\:bg-\[\#e98468\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 132 104 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-baseprimary:hover {
